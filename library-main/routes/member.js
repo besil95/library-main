@@ -38,7 +38,7 @@ router.get('/:id', async (req, res) => {
       const memberId = req.params.id;
       const member = await Member.findById(memberId);
       if (!member) {
-        return res.status(404).json({ message: 'Üye bulunamadı.' });
+        return res.status(404).json({ message: 'User not found' });
       }
   
       const borrowedBooks = await Transaction.find({ memberId });
