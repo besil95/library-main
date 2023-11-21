@@ -17,13 +17,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/cananengin/library.git"
+    "url": "git+https://github.com/besil95/library.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/cananengin/library/issues"
+    "url": "https://github.com/besil95/library/issues"
   },
-  "homepage": "https://github.com/cananengin/library#readme"
+  "homepage": "https://github.com/besil95/library#readme"
 }
